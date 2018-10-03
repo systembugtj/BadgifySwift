@@ -1,0 +1,27 @@
+PODS:
+  - BadgifySwift (1.0.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BadgifySwift (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BadgifySwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BadgifySwift: 67c62d4d810f419b41566ccff6e58edc09cb5b58
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: e40d38700787224c2f903667a5c10f784212b85c
+
+COCOAPODS: 1.5.3

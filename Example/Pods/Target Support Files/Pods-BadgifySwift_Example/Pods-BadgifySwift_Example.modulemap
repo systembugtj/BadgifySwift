@@ -1,0 +1,6 @@
+framework module Pods_BadgifySwift_Example {
+  umbrella header "Pods-BadgifySwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

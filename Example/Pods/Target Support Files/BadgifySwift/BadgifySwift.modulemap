@@ -1,0 +1,6 @@
+framework module BadgifySwift {
+  umbrella header "BadgifySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
