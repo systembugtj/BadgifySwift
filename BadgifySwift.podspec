@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BadgifySwift"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A Swift UI framework for badge view that supports image as badge"
   s.homepage     = "https://github.com/maios/BadgifySwift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
