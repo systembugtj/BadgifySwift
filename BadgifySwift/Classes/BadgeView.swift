@@ -150,7 +150,7 @@ open class BadgeView: UIView {
     }
 
     func updateState() {
-        let attributes: [NSAttributedStringKey: Any] = [
+        let attributes: [NSAttributedString.Key: Any] = [
             .font: badgeFont,
             .foregroundColor: textColor,
             ]

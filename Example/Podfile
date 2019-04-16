@@ -1,5 +1,5 @@
 use_frameworks!
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'BadgifySwift_Example' do
   pod 'BadgifySwift', :path => '../'
@@ -7,6 +7,6 @@ target 'BadgifySwift_Example' do
   target 'BadgifySwift_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'iOSSnapshotTestCase' , '~> 6.0.3'
   end
 end

@@ -1,27 +1,27 @@
 PODS:
-  - BadgifySwift (1.0.1)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - BadgifySwift (2.0.0)
+  - iOSSnapshotTestCase (6.0.3):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.0.3)
+  - iOSSnapshotTestCase/Core (6.0.3)
+  - iOSSnapshotTestCase/SwiftSupport (6.0.3):
+    - iOSSnapshotTestCase/Core
 
 DEPENDENCIES:
   - BadgifySwift (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
+  - iOSSnapshotTestCase (~> 6.0.3)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
 
 EXTERNAL SOURCES:
   BadgifySwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BadgifySwift: a3452d4241c291d62a34b08834267fa2588181bb
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  BadgifySwift: fab5473460be8dd895c30341fbc857ff6ffa8705
+  iOSSnapshotTestCase: 944a73f6d9676302811a86c0cf35f0e6ef5ab2a0
 
-PODFILE CHECKSUM: 0a01b0ee70f336a583b47eb55cfeed94e46a8e7e
+PODFILE CHECKSUM: 06000968393e46dd22f72f083736398c83be2b86
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.2
